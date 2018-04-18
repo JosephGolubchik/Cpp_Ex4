@@ -28,7 +28,7 @@ int CircularInt::getCurHour(){
     return curHour;
 }
 
-int CircularInt::setCurHour(int hour){
+void CircularInt::setCurHour(int hour){
     curHour = hour;
 }
 
