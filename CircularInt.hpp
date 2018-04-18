@@ -14,7 +14,7 @@ class CircularInt {
     int getStart();
     int getEnd();
     int getCurHour();
-    int setCurHour(int hour);
+    void setCurHour(int hour);
     friend ostream& operator<<(ostream& os, const CircularInt& circ);  
     CircularInt& operator+= (int add);
     CircularInt& operator++ (int);
